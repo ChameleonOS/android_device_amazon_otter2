@@ -1,0 +1,28 @@
+[
+    {
+        "project": "KFire-Android",
+        "repository": "kernel_omap_otter-common",
+        "target_path": "kernel/amazon/otter-common",
+        "branch": "cm-10.1"
+    },
+    {
+        "project": "KFire-Android",
+        "repository": "kernel_omap_bowser-common",
+        "target_path": "kernel/amazon/bowser-common",
+        "branch": "p-android-3.0"
+    },
+    {
+        "project": "KFire-Android",
+        "repository": "android_device_amazon_omap4-common",
+        "target_path": "device/amazon/omap4-common",
+        "branch": "cm-10.1"
+    },
+    {
+        "remote": "omapzoom",
+        "fetch": "git://git.omapzoom.org/",
+        "project": "platform",
+        "repository": "external/wpa_supplicant_8_ti",
+        "target_path": "external/wpa_supplicant_8_ti",
+        "branch": "cm-10.1"
+    }
+]
