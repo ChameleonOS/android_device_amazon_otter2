@@ -7,7 +7,7 @@ $(call inherit-product-if-exists, vendor/cos/config/common_full_tablet_wifionly.
 # Inherit device configuration for Kindle Fire
 $(call inherit-product, device/amazon/otter2/full_otter2.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/amazon/otter2/overlay/cm
+DEVICE_PACKAGE_OVERLAYS += device/amazon/otter2/overlay
 
 PRODUCT_NAME := cos_otter2
 PRODUCT_DEVICE := otter2
