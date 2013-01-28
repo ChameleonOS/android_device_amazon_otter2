@@ -18,11 +18,9 @@
         "branch": "cm-10.1"
     },
     {
-        "remote": "omapzoom",
-        "fetch": "git://git.omapzoom.org/",
-        "project": "platform",
-        "repository": "external/wpa_supplicant_8_ti",
+        "project": "ChameleonOS",
+        "repository": "android_external_wpa_supplicant_8_ti",
         "target_path": "external/wpa_supplicant_8_ti",
-        "branch": "cm-10.1"
+        "branch": "p-jb-mr1-release"
     }
 ]
